@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <title>Регистрация</title>
+</head>
+<body class="bc">
+    <div class="main">
+        <section class="content_wrapper">
+            <section class="content">
+                <div class="system-header">
+                    <div class="system-logo">
+                        <a href="#"><img src="images/system-logo.png"></a>
+                    </div>
+                    <h1 class="system-name">Доступ к информационным ресурсам города Москвы</h1>
+                </div>
+            </section>
+            <h1 class="page-title">
+                Регистрация учётной записи
+            </h1>
+            <form class="signin-form" action="sign_up.php" method="POST">
+                <div class="auth-input auth-input-style">
+                    <input type="text" name="mail" required=""/>
+                    <label class="auth-label">E-mail</label><span class="line"></span>
+                </div>
+                <div class="auth-input auth-input-style">
+                    <input type="text" name="name" required=""/>
+                    <label class="auth-label">Имя   </label><span class="line"></span>
+                </div>
+                <div class="auth-input auth-input-style">
+                    <input type="text" name="login" required=""/>
+                    <label class="auth-label">Логин</label><span class="line"></span>
+                </div>
+                <div class="auth-input auth-input-style">
+                    <input type="password" name="password" required=""/>
+                    <label class="auth-label">Пароль</label><span class="line"></span>
+                </div>
+                <button type="submit" class="auth-btn-style">Регистрация</button>
+            </form>
+        </section>
+    </div>
+</body>
+</html>
